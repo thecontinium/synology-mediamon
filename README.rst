@@ -23,8 +23,8 @@ Usage
 
    ``sudo -i`` to become the root user. This will require re-entering your admin user's password.
    
-    python3 -m ensurepip    
-    python3 -m pip install pyinotify
+   python3 -m ensurepip  
+   python3 -m pip install pyinotify
 
    Test that pyinotify works:
     python3 -m pyinotify -v /tmp
