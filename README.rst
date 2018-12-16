@@ -19,12 +19,12 @@ Usage
 3. SSH into your DiskStation as admin (e.g. ``ssh admin@192.168.1.20`` -- use
    the right IP address for your DiskStation) and move the files into a bin directory ``mkdir bin && mv *.{py,sh} bin`` 
    
-4. Install pyinotify:
+4. Install pyinotify: 
 
-   ``sudo -i`` to become the root user. This will require re-entering your admin user's password
-
-    python3 -m ensurepip
-    python3 -m pip install pyinotify
+   ``sudo -i`` to become the root user. This will require re-entering your admin user's password.
+   
+   python3 -m ensurepip 
+   python3 -m pip install pyinotify
 
    Test that pyinotify works:
     python3 -m pyinotify -v /tmp
