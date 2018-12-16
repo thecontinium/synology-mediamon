@@ -7,7 +7,7 @@ export LANG='en_US.utf8'
 case "$1" in
   start|"")
     #start the monitoring daemon
-    python3 /volume1/homes/darthvader/mediamon.py
+    python3 /volume1/homes/admin/bin/mediamon.py
     ;;
   restart|reload|force-reload)
     echo "Error: argument '$1' not supported" >&2
