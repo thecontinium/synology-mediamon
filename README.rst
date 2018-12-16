@@ -30,8 +30,10 @@ Usage
 
 5. Setup two triggered tasks in Task Scheduler user defined scripts:
 
-     Boot ``/volume1/homes/darthvader/S99mediamon.sh start``
-     Shutdown ``/volume1/homes/darthvader/S99mediamon.sh stop`` 
+   Boot 
+    ``/volume1/homes/darthvader/S99mediamon.sh start``   
+   Shutdown
+    ``/volume1/homes/darthvader/S99mediamon.sh stop`` 
    
 6. Restart your Synology (if you want to verify that the mediamon service will
    start up automatically in the future), or start it up yourself:
